@@ -21,7 +21,11 @@ public class Bins {
         return this.Pvalue[binnumber - this.min];
     }
 // create increment (int binnumber)
-//
+// increment value at binNumber +1
+
+    public void incrementBin ( int binNumber){
+        this.Pvalue[binNumber - this.min] ++;
+    }
 
 
 }
