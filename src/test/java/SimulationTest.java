@@ -12,6 +12,7 @@ public class SimulationTest extends TestCase {
     }
 
 public void testRunSimulation(){
+
         int numberOfDies = 2;
         int numberOfTosses = 10;
         Simulation simulation = new Simulation(numberOfDies, numberOfTosses);
