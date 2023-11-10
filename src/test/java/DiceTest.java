@@ -20,7 +20,7 @@ public class DiceTest extends TestCase {
     Integer actual = dice.tossAndSum();
 
     Assert.assertTrue(actual <= max);
-    Assert.assertTrue( actual >- numberOfDice;
+    Assert.assertTrue( actual >- numberOfDice);
 }
 
 }
