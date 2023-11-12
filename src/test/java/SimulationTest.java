@@ -16,7 +16,10 @@ public void testRunSimulation(){
         int numberOfDies = 2;
         int numberOfTosses = 10;
         Simulation simulation = new Simulation(numberOfDies, numberOfTosses);
-}
 
-    Simulation.runSimulation();
+    simulation.runSimulation();
+
+    }
+
+
 }
